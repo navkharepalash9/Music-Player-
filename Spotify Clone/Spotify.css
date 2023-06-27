@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@200;400&family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+body
+{
+    background-color: antiquewhite;
+    font-family: 'IBM Plex Serif', serif;
+    font-family: 'Rajdhani', sans-serif;
+    
+}
+*{
+   margin: 0;
+   padding: 0; 
+}
+
+nav ul 
+{
+    display:flex;
+    align-items: center;
+    list-style-type: none;
+    height: 70px;
+    background-color: black;
+    color: white;
+    padding: 0 50px  0 30px;
+}
+
+nav ul .brand
+{
+   padding-left: 20px ;
+   padding-right: 40px; 
+}
+
+nav ul li
+{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.brand img 
+{
+ width: 140px;
+ height: 75px;
+}
+
+.container
+{
+    min-height: 75vh;
+    
+    width: 70%;
+    /* background-color: black; */
+    color: white;
+    border-radius: 50px;
+    display: flex;
+    margin: 15px auto;
+    vertical-align: middle;
+    background-image: url('https://www.oxigenio.fm/wp-content/uploads/2020/11/Music-Listening-1.jpg');
+}
+
+ #bd
+{
+    min-height: 75vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+}
+
+
+
+.bottom
+{
+    position:static;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aqua;
+    padding-bottom: 60px;
+    padding-top: 30px;
+    flex-direction: column;
+    }
+
+#myProgressBar
+{
+    width: 80vw;
+    padding: 25px;
+    cursor: pointer;
+    
+    
+}
+.icons
+{
+    cursor: pointer;
+    margin-top: -20px;
+}
+.songItem
+{
+
+    height: 45px;
+    display: flex;
+    background-color: rgb(200, 240, 244);
+    width: 500px;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 34px;
+    margin-left: 50px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+
+}
+.songItemcontainer
+{
+    margin-top: 34px;
+    margin-left: 10px;
+}
+ .songItem img
+{
+    border-radius: 34px;
+    height: 30px;
+    margin-left: 30px;
+}
+ .timestamp i
+{
+    cursor: pointer;
+
+}
+.songinfo
+{
+    position: absolute;
+    align-items: center;
+    right: 250px;
+    nav-down: 350px;
+    margin-bottom: 70 px;
+    align-items: center;
+    color: white;
+    
+}
+/* #masterSongName
+{
+    color:white;
+    
+    padding-right: 800px;
+    
+} */
+
+
+.songinfo img 
+{
+    opacity: 0;
+    transition: opacity is ease-in;
+    color-scheme: aqua;
+}
+
+fieldset
+{
+    stroke:antiquewhite;
+}
+/* @media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  } */
+
+  /* https://thumbs.gfycat.com/AlarmingOccasionalGalapagosmockingbird-size_restricted.gif */

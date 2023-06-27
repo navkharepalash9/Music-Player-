@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="stylesheet" href="Spotify.css" type="text/css">
+    <!-- This website is created by palash for education purpose -->
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/270/270823.png?w=360"  type="image/x-icon">
+</head>
+<body>
+    
+
+        <nav>
+            <ul>
+                <li class="brand"><img src="https://wallpaperaccess.com/full/1373271.jpg" width="80" height="50" > </li>
+                
+                <b> <li>Home</li></b> &nbsp;
+               <b> <li>About</li></b>
+               <b> <li>Services</li></b>
+               
+
+            </ul>
+        </nav>  &nbsp;
+
+        <h1 align="center"> Best of NCS - No Copyrights Sounds </h1>
+        <div class="container" id="bd">
+            <div class="songList">
+                <div class="songItemcontainer">
+                    <div class="songItem">
+                        <img src="https://i1.sndcdn.com/avatars-PnjPsBdGyMa4OIgh-gMFBWw-t500x500.jpg" alt="1" width="30px" height="20px">
+                        <span  class="songName">Kun-Faya-Kun</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                03:36
+                            &nbsp; &nbsp;
+                            <i id="0" class="fa-solid songItemPlay fa-circle-play" onclick="background0()" ></i> &nbsp;  &nbsp;  </span>
+                        </span>
+                    </div>
+                    <div class="songItem">
+                        <img src="https://i.ytimg.com/vi/NRmSf9VqrUA/maxresdefault.jpg" alt="1" width="30px" height="20px">
+                        <span  class="songName">Shree Krishna Flute </span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                01:00
+                             &nbsp; &nbsp; 
+                            <i id="1" class="fa-solid songItemPlay fa-circle-play" onclick="background1()"  ></i>  &nbsp;   &nbsp; </span>
+                        </span>
+                    </div> <div class="songItem">
+                        <img src="https://pbs.twimg.com/profile_images/1240708436775632899/lHL8ty85_400x400.jpg" alt="1" width="30px" height="20px">
+                        <span  class="songName">I Tried So Hard</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                00:30
+                             &nbsp; &nbsp;
+                            <i id="2" class="fa-solid songItemPlay fa-circle-play" onclick="background2()" ></i> &nbsp;  &nbsp; </span>
+                        </span>
+                    </div> <div class="songItem">
+                        <img src="https://www.jamsbase.com/wp-content/uploads/2022/06/Somebody-Like-U.jpg" alt="1" width="30px" height="20px">
+                        <span  class="songName">Invisible</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                00:13
+                            &nbsp; &nbsp;
+                            <i id="3" class="fa-solid songItemPlay fa-circle-play" onclick="background3()" ></i> &nbsp;  &nbsp; </span>
+                        </span>
+                    </div> <div class="songItem">
+                        <img src="https://i0.wp.com/talkglitz.media/wp-content/uploads/2019/03/Download-mp3-Alan-Walker-Sabrina-Carpenter-Farruko-On-My-Way-mp3-Download.jpg?fit=1280%2C720&ssl=1" alt="1" width="30px" height="20px">
+                        <span  class="songName">Darkside</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                00:44
+                            &nbsp; &nbsp;
+                            <i id="4" class="fa-solid songItemPlay fa-circle-play" onclick="background4()" ></i> &nbsp;  &nbsp; </span>
+                        </span>
+                    </div> <div class="songItem">
+                        <img src="https://ichef.bbci.co.uk/images/ic/960x540/p0b2w95p.jpg" alt="1" width="30px" height="20px">
+                        <span  class="songName">Into Your Arm</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                00:23
+                             &nbsp; &nbsp;
+                            <i id="5" class="fa-solid songItemPlay fa-circle-play" onclick="background5()" ></i> &nbsp;  &nbsp;  </span>
+                        </span>
+                    </div> <div class="songItem">
+                        <img src="https://lastfm.freetls.fastly.net/i/u/ar0/3f632084024e5540bbe717fd4692ca28" alt="1" width="30px" height="20px">
+                        <span  class="songName">Marshmellow</span>
+                        <span class="songlistplay">
+                            <span class="timestamp">
+                                00:33
+                             &nbsp; &nbsp;
+                            <i id="6" class="fa-solid songItemPlay fa-circle-play" onclick="background6()" ></i> &nbsp;  &nbsp;  </span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+            <div class="songBanner"></div>
+        </div>
+       <center> <div class="songinfo">
+            <img src="https://c.tenor.com/BOu8ryjIR38AAAAC/sound-wave-wave.gif" width="800px" height="50px" alt="" id="gif">
+            <!-- <span id="masterSongName">Kun-Faya-Kun</span>  -->
+            <!-- for above changes -->
+            <!-- <span id="masterSongName">Warriyo - Mortals [NCS Release]</span> -->
+        </div></center>
+        <div class="bottom">
+            <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100"  >
+            <!-- fontawesome icons -->
+            <div class="icons" valign="middle">
+                <i  class="fa-solid fa-3x fa-backward-step" id="Previous" onclick="background7()"></i> &nbsp;
+                <i  class="fa-solid fa-3x fa-circle-play" id="masterPlay" onclick="changebackground()" ></i> &nbsp;
+                <i  class="fa-solid fa-3x fa-forward-step" id="next" onclick="background3()"></i>
+            </div>
+            <!-- <div class="songInfo">
+                <img src="playing.gif" width="42px" alt="" id="gif"> <span id="masterSongName">Warriyo - Mortals [NCS Release]</span>
+            </div> -->
+            <span id="masterSongName">Invisible</span> 
+
+        </div>
+            
+        <script src="Spotify.js"> </script>
+        <script src="https://kit.fontawesome.com/d96392ba02.js" crossorigin="anonymous"></script>
+</body>
+</html>
